@@ -5,6 +5,7 @@ edition = "2021"
 authors = ["marsevilspirit <marsevilspirit@gmail.com>"]
 
 [dependencies]
+bootloader = "0.9"
 
 [profile.dev]
 panic = "abort" # 禁用panic时栈展开
