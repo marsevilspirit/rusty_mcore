@@ -1,0 +1,13 @@
+[package]
+name = "rusty_mcore"
+version = "0.1.0"
+edition = "2021"
+authors = ["marsevilspirit <marsevilspirit@gmail.com>"]
+
+[dependencies]
+
+[profile.dev]
+panic = "abort" # 禁用panic时栈展开
+
+[profile.release]
+panic = "abort" # 禁用panic时栈展开
